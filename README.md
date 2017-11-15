@@ -4,7 +4,7 @@
 点击左边图标，可以进入道测试总量页面，并且每次提交代码，都可以自动测试并在图标上反馈结果。
 
 ## 使用coverity来做免费的在线代码测试
-1. 打开![coverity](https://scan.coverity.com/ "悬浮显示")网站，用github账户登陆。
+1. 打开[coverity](https://scan.coverity.com/ "悬停显示")网站，用github账户登陆。
 2. 在dashboard这个页面里，把需要实现自动测试的项目加进来。 
 ![image](image/image01.png)
 3. 之后进入刚添加的项目页面。注意红色的地方。
@@ -42,7 +42,7 @@ curl --form token=rCfUzcswcqW4pUxCBdABqA   --form email=toniz7960@gmail.com   --
 
 
 ## 使用travis-ci.org这个网站来实现Git更新检测->自动测试->上传测试报告到coverity。
-1. 用github账号登陆travis-ci.org.
+1. 用github账号登陆[travis-ci.org](https://travis-ci.org/).
 > 注意travis-ci.org是免费提供给开源项目使用的。travis-ci.com是收费使用的。
 2. 用github账号登陆travis-ci.org.
 3. travis-ci会自动把你github上面的项目关联过来。选择要自动测试的项目打开开关。
