@@ -1,10 +1,10 @@
 # 如何实现git上面提交源码就开始自动测试：
-实现下面效果
+实现效果
 [![coverity](https://scan.coverity.com/projects/14345/badge.svg)](https://scan.coverity.com/projects/toniz-async-or-coroutine-fastcgi)
-点击上面图标，可以进入道测试总量页面，并且每次提交代码，都可以自动测试并在图标上反馈结果。
+点击左边图标，可以进入道测试总量页面，并且每次提交代码，都可以自动测试并在图标上反馈结果。
 
 ## 使用coverity来做免费的在线代码测试
-1. 打开https://scan.coverity.com/网站，用github账户登陆。
+1. 打开![coverity](https://scan.coverity.com/ "悬浮显示")网站，用github账户登陆。
 2. 在dashboard这个页面里，把需要实现自动测试的项目加进来。 
 ![image](image/image01.png)
 3. 之后进入刚添加的项目页面。注意红色的地方。
